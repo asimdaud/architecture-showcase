@@ -1,4 +1,5 @@
 # Floorplan Takeoff: engineering showcase
+**Live:** [floorplan-takeoff.vercel.app](https://floorplan-takeoff.vercel.app) (no login; projects stay in your browser)
 
 ## 1. One-paragraph summary
 

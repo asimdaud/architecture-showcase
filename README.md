@@ -6,10 +6,10 @@ Each one follows the same structure: summary, constraints, architecture, integra
 
 | System | What it is | Backend / integration focus |
 |---|---|---|
-| [Recepto: AI receptionist backend](recepto-ai-receptionist-backend/) | Multi-tenant FastAPI service where a business configures an agent that answers, books, takes orders and escalates | Tool-calling agent loop, multi-provider LLM chain with circuit breaker, hybrid retrieval, import pipeline (JSON/CSV/PDF/URL), output guards, Postgres/SQLAlchemy |
+| [Recepto: AI receptionist backend](recepto-ai-receptionist-backend/) ([live](https://receptio-v3.vercel.app)) | Multi-tenant FastAPI service where a business configures an agent that answers, books, takes orders and escalates | Tool-calling agent loop, multi-provider LLM chain with circuit breaker, hybrid retrieval, import pipeline (JSON/CSV/PDF/URL), output guards, Postgres/SQLAlchemy |
 | [Wholesale sourcing pipeline](wholesale-sourcing-integration-pipeline/) | Tool that decides which wholesale products are safe to buy for Amazon FBA | Multiple supplier connectors behind one sync pipeline, Amazon SP-API enrichment, reconciling contradictory upstream data, rule-based decision engine, audit log, RBAC |
-| [Floorplan Takeoff: estimating engine](floorplan-takeoff-estimating-engine/) | Browser-based construction takeoff and estimating tool, no backend | Client-side architecture, IndexedDB persistence, pure-logic pricing and geometry layer, config-driven trade packs, unit plus Playwright testing |
-| [Travel agency CMS platform](travel-agency-cms-platform/) | Production Next.js site with an owner-run admin panel, live in production | Admin publish pipeline via GitHub Contents API, signed stateless sessions, third-party data integrations, CI jobs (IndexNow, weekly SEO report) |
+| [Floorplan Takeoff: estimating engine](floorplan-takeoff-estimating-engine/) ([live](https://floorplan-takeoff.vercel.app)) | Browser-based construction takeoff and estimating tool, no backend | Client-side architecture, IndexedDB persistence, pure-logic pricing and geometry layer, config-driven trade packs, unit plus Playwright testing |
+| [Travel agency CMS platform](travel-agency-cms-platform/) ([live](https://travelways.pk/)) | Production Next.js site with an owner-run admin panel, live in production | Admin publish pipeline via GitHub Contents API, signed stateless sessions, third-party data integrations, CI jobs (IndexNow, weekly SEO report) |
 
 ## Reading order for a backend / integration role
 

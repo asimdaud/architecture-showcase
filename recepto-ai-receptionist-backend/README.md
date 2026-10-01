@@ -1,4 +1,5 @@
 # Recepto: backend write-up
+**Live:** [receptio-v3.vercel.app](https://receptio-v3.vercel.app) (free-tier demo; the first request after idle can take a minute)
 
 ## 1. Summary
 
