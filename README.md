@@ -17,6 +17,9 @@ Each one follows the same structure: summary, constraints, architecture, integra
 2. **Wholesale sourcing pipeline**: integrating disparate external systems and reconciling data that disagrees.
 3. Floorplan Takeoff and the CMS platform for breadth.
 
+## Why architecture rather than source?
+The underlying repositories include private client code or live business integrations and are not public. These write-ups document the architecture, APIs, data flows, failure handling, testing, trade-offs and known limitations of the real systems without exposing confidential code or credentials.
+
 ## About
 
 Muhammad Asim, full-stack software engineer (Python/FastAPI, React/Next.js, AWS), based in Greater Manchester.
